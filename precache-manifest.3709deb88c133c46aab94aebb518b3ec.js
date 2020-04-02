@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1a968e431a7b75e0d68571a46091a9b",
+    "revision": "0ea3cfb53a3f0e9b11de7cc6589a2b3d",
     "url": "/films-games-search-app/index.html"
   },
   {
-    "revision": "a3bbed70456725e0cfbf",
-    "url": "/films-games-search-app/static/css/main.d10f11a2.chunk.css"
+    "revision": "7455d6b31e0b5d3f44f2",
+    "url": "/films-games-search-app/static/css/main.58bf3ce2.chunk.css"
   },
   {
     "revision": "c3dff86c46fe9ee98f8a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/films-games-search-app/static/js/2.0ae3d216.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3bbed70456725e0cfbf",
+    "revision": "7455d6b31e0b5d3f44f2",
     "url": "/films-games-search-app/static/js/main.a03cf291.chunk.js"
   },
   {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/films-games-search-app/static/css/main.d10f11a2.chunk.css",
+    "main.css": "/films-games-search-app/static/css/main.58bf3ce2.chunk.css",
     "main.js": "/films-games-search-app/static/js/main.a03cf291.chunk.js",
     "main.js.map": "/films-games-search-app/static/js/main.a03cf291.chunk.js.map",
     "runtime-main.js": "/films-games-search-app/static/js/runtime-main.5a2f2898.js",
@@ -8,16 +8,16 @@
     "static/js/2.0ae3d216.chunk.js": "/films-games-search-app/static/js/2.0ae3d216.chunk.js",
     "static/js/2.0ae3d216.chunk.js.map": "/films-games-search-app/static/js/2.0ae3d216.chunk.js.map",
     "index.html": "/films-games-search-app/index.html",
-    "precache-manifest.dc1e660f8152f85d586e9c93323d07bc.js": "/films-games-search-app/precache-manifest.dc1e660f8152f85d586e9c93323d07bc.js",
+    "precache-manifest.3709deb88c133c46aab94aebb518b3ec.js": "/films-games-search-app/precache-manifest.3709deb88c133c46aab94aebb518b3ec.js",
     "service-worker.js": "/films-games-search-app/service-worker.js",
-    "static/css/main.d10f11a2.chunk.css.map": "/films-games-search-app/static/css/main.d10f11a2.chunk.css.map",
+    "static/css/main.58bf3ce2.chunk.css.map": "/films-games-search-app/static/css/main.58bf3ce2.chunk.css.map",
     "static/js/2.0ae3d216.chunk.js.LICENSE.txt": "/films-games-search-app/static/js/2.0ae3d216.chunk.js.LICENSE.txt",
     "static/media/default poster.jpg": "/films-games-search-app/static/media/default poster.731567aa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a2f2898.js",
     "static/js/2.0ae3d216.chunk.js",
-    "static/css/main.d10f11a2.chunk.css",
+    "static/css/main.58bf3ce2.chunk.css",
     "static/js/main.a03cf291.chunk.js"
   ]
 }
