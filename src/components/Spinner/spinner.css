@@ -1,13 +1,12 @@
 .cssload-container{
   position:relative;
-  padding: 150px;
+  padding: 80px;
 }
   
 .cssload-whirlpool,
 .cssload-whirlpool::before,
 .cssload-whirlpool::after {
   position: absolute;
-
   top: 50%;
   left: 50%;
   border: 1px solid rgb(204,204,204);

@@ -10,7 +10,8 @@
 	flex-wrap: wrap;
 	padding: 2rem 1rem;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
+	overflow: auto;
 }
 
 .info p {
@@ -25,7 +26,8 @@
 }
 
 .text {
-	width: 65%;
+	width: 60%;
+	margin-left: 5%;
 }
 
 .text p {
@@ -39,12 +41,7 @@
 @media (max-width: 576px) {
 	.text {
 		width: 100%;
-	}
-	.poster {
-		display: none;
-	}
-	.poster img {
-		width: 30%;
+		padding-bottom: 1rem;
 	}
 	.info {
 		position: fixed;
@@ -53,6 +50,9 @@
 		width: 90%;
 		height: 90%;
 		margin: 0 auto;
-		padding: 0;
+	}
+	.poster {
+		width: 100%;
+		margin-bottom: 0.5rem;
 	}
 }
