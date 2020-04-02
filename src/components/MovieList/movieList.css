@@ -1,0 +1,13 @@
+.movieList {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1.5rem;
+	justify-content: center;
+	position: static;
+}
+
+@media (max-width: 576px) {
+	.movieList {
+		justify-content: space-around;
+	}
+}
