@@ -5,6 +5,7 @@ function SearchField({ search, onCloseInfo }) {
 	
 	const [searchValue, setSearchField] = useState("")
 	const [errorInput, setErrorInput] = useState(false)
+	const [errorPlaceholder, setErrorPlaceholder] = useState('Enter a movie or game title...')
 
 	const handleSearchInputChanges = (event) => {
 		setSearchField(event.target.value)
@@ -20,12 +21,13 @@ function SearchField({ search, onCloseInfo }) {
 		{
 			search(searchValue);
 			resetSearchField();
-			setErrorInput(false)	
+			setErrorInput(false)
+			setErrorPlaceholder('Enter a movie or game title...')	
 		}
 		else
 		{
 			setErrorInput(true)
-			setSearchField('Fill the field')
+			setErrorPlaceholder('Fill the field...')
 		}
 	}
 
@@ -35,11 +37,10 @@ function SearchField({ search, onCloseInfo }) {
         		<input
           			id='input'
           			value={searchValue}
-          			onFocus={()=>{setSearchField(""); setErrorInput(false)}}
           			onChange={handleSearchInputChanges}
           			type="text"
-          			placeholder="Enter a movie or game title..."
-          			style={errorInput ? {border: '2px solid red', color: 'red'} : null}
+          			placeholder={errorPlaceholder}
+          			style={errorInput ? {border: '2px solid red'} : null}
         		/>
         		<button  type="submit" value="search" >SEARCH</button>
       		</form>
