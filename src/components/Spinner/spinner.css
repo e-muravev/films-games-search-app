@@ -1,6 +1,6 @@
 .cssload-container{
   position:relative;
-  padding: 80px;
+  padding: 50px;
 }
   
 .cssload-whirlpool,
@@ -84,3 +84,17 @@
     -moz-transform: rotate(360deg);
   }
 }
+
+
+@media (min-width: 300px) {
+  .cssload-container{
+    padding: 70px;
+  }
+}
+
+@media (min-width: 576px) {
+  .cssload-container{
+    padding: 190px;
+  }
+}
+

@@ -1,9 +1,12 @@
 import React from 'react'
 import './info.css'
 import Spinner from '../Spinner/Spinner'
+import default_poster from './default poster.jpg'
 
 function Info({ info, activateInfo, onCloseInfo}) {
-	// console.log(info)
+	
+	const poster = (info.Poster === 'N/A') ? default_poster : info.Poster
+
 	if (activateInfo === true) 
 	{
 		if (info.Title === undefined)
@@ -17,9 +20,9 @@ function Info({ info, activateInfo, onCloseInfo}) {
 		else
 		{
 			return (
-			<div className="info" onClick={onCloseInfo}>
+			<div className="info">
 				<div className="poster">
-					<img src={info.Poster} alt="poster" />
+					<img src={poster} alt="poster" />
 				</div>
 				<div className="text">
 					<p><span className="x">Title:</span> {info.Title}</p>
@@ -35,6 +38,7 @@ function Info({ info, activateInfo, onCloseInfo}) {
 					<p><span className="x">Awards:</span> {info.Awards}</p>
 					<p><span className="x">Country:</span> {info.Country}</p>
 				</div>
+				<div onClick={onCloseInfo} className="close"></div>
 			</div>
 			);
 		}

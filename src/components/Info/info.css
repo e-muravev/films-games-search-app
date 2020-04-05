@@ -54,5 +54,50 @@
 	.poster {
 		width: 100%;
 		margin-bottom: 0.5rem;
+		margin-top: 1.5rem;
 	}
+}
+
+@media (max-width: 300px) {
+	.poster {
+		margin-top: 2rem;
+	}
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: black;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+
+@media (min-width: 992px) { 
+  .close {
+    right: 10px;
+    top: 12px;
+  }
+  .close:before, .close:after {
+    height: 25px;
+  }
 }

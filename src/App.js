@@ -101,14 +101,13 @@ function App() {
 
   const search = (searchValue) => {
 
-    dispatch(searchMoviesRequest)
-
+    dispatch(searchMoviesRequest())
     fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=${API_KEY}`)
     .then(response => response.json())
     .then(data => {
       if (data.Response === "True") 
       {
-        dispatch(searchMoviesSucces(data))
+        setTimeout(() => dispatch(searchMoviesSucces(data)), 300);
       } 
       else 
       {

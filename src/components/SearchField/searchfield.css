@@ -14,6 +14,7 @@
   width: 50%;
   border-bottom: 0.3rem solid transparent;
   margin-right: 1rem;
+  border: 1px solid black;
 }
 
 .search input::placeholder {
@@ -22,15 +23,15 @@
 
 
 .search button {
+	border: 1px solid black;
 	width: 20%;
 	padding: 10px 20px;
 	font-size: 1rem;
 	color: white;
 	text-align: center;
 	text-shadow: 0 0 2px rgba(255, 255, 255, 1);
-	background-color:  rgba(0, 0, 0, .9);
-    border: none;
-	border-radius: 15px;
+	background-color:  rgba(0, 0, 0, .75);
+	border-radius: 5px;
 	cursor: pointer;
 	outline: none;
 	transition-duration: 0.4s;
