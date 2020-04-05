@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/films-games-search-app/static/css/main.58bf3ce2.chunk.css",
-    "main.js": "/films-games-search-app/static/js/main.a03cf291.chunk.js",
-    "main.js.map": "/films-games-search-app/static/js/main.a03cf291.chunk.js.map",
+    "main.css": "/films-games-search-app/static/css/main.e5111a34.chunk.css",
+    "main.js": "/films-games-search-app/static/js/main.976f73e9.chunk.js",
+    "main.js.map": "/films-games-search-app/static/js/main.976f73e9.chunk.js.map",
     "runtime-main.js": "/films-games-search-app/static/js/runtime-main.5a2f2898.js",
     "runtime-main.js.map": "/films-games-search-app/static/js/runtime-main.5a2f2898.js.map",
-    "static/js/2.0ae3d216.chunk.js": "/films-games-search-app/static/js/2.0ae3d216.chunk.js",
-    "static/js/2.0ae3d216.chunk.js.map": "/films-games-search-app/static/js/2.0ae3d216.chunk.js.map",
+    "static/js/2.2f2ed3bf.chunk.js": "/films-games-search-app/static/js/2.2f2ed3bf.chunk.js",
+    "static/js/2.2f2ed3bf.chunk.js.map": "/films-games-search-app/static/js/2.2f2ed3bf.chunk.js.map",
     "index.html": "/films-games-search-app/index.html",
-    "precache-manifest.e1bfe94b557dec09f06879a5ba5a3b63.js": "/films-games-search-app/precache-manifest.e1bfe94b557dec09f06879a5ba5a3b63.js",
+    "precache-manifest.df4152d0220001e4304a60e1d4c815d5.js": "/films-games-search-app/precache-manifest.df4152d0220001e4304a60e1d4c815d5.js",
     "service-worker.js": "/films-games-search-app/service-worker.js",
-    "static/css/main.58bf3ce2.chunk.css.map": "/films-games-search-app/static/css/main.58bf3ce2.chunk.css.map",
-    "static/js/2.0ae3d216.chunk.js.LICENSE.txt": "/films-games-search-app/static/js/2.0ae3d216.chunk.js.LICENSE.txt",
-    "static/media/default poster.jpg": "/films-games-search-app/static/media/default poster.731567aa.jpg"
+    "static/css/main.e5111a34.chunk.css.map": "/films-games-search-app/static/css/main.e5111a34.chunk.css.map",
+    "static/js/2.2f2ed3bf.chunk.js.LICENSE.txt": "/films-games-search-app/static/js/2.2f2ed3bf.chunk.js.LICENSE.txt",
+    "static/media/default poster.jpg": "/films-games-search-app/static/media/default poster.94af2db5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a2f2898.js",
-    "static/js/2.0ae3d216.chunk.js",
-    "static/css/main.58bf3ce2.chunk.css",
-    "static/js/main.a03cf291.chunk.js"
+    "static/js/2.2f2ed3bf.chunk.js",
+    "static/css/main.e5111a34.chunk.css",
+    "static/js/main.976f73e9.chunk.js"
   ]
 }
