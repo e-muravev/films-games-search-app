@@ -25,7 +25,7 @@ function SearchField({ search, onCloseInfo }) {
 		else
 		{
 			setErrorInput(true)
-			setSearchField('Заполните поле')
+			setSearchField('Fill the field')
 		}
 	}
 
