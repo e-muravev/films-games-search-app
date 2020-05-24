@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/films-games-search-app/static/css/main.e5111a34.chunk.css",
-    "main.js": "/films-games-search-app/static/js/main.a453dddf.chunk.js",
-    "main.js.map": "/films-games-search-app/static/js/main.a453dddf.chunk.js.map",
+    "main.css": "/films-games-search-app/static/css/main.588832e5.chunk.css",
+    "main.js": "/films-games-search-app/static/js/main.f2a386f5.chunk.js",
+    "main.js.map": "/films-games-search-app/static/js/main.f2a386f5.chunk.js.map",
     "runtime-main.js": "/films-games-search-app/static/js/runtime-main.5a2f2898.js",
     "runtime-main.js.map": "/films-games-search-app/static/js/runtime-main.5a2f2898.js.map",
     "static/js/2.2f2ed3bf.chunk.js": "/films-games-search-app/static/js/2.2f2ed3bf.chunk.js",
     "static/js/2.2f2ed3bf.chunk.js.map": "/films-games-search-app/static/js/2.2f2ed3bf.chunk.js.map",
     "index.html": "/films-games-search-app/index.html",
-    "precache-manifest.1a989516fd6ef440c3dc9ae03cc824e1.js": "/films-games-search-app/precache-manifest.1a989516fd6ef440c3dc9ae03cc824e1.js",
+    "precache-manifest.40eb3a2af65aeaf2044110cd9ad0e689.js": "/films-games-search-app/precache-manifest.40eb3a2af65aeaf2044110cd9ad0e689.js",
     "service-worker.js": "/films-games-search-app/service-worker.js",
-    "static/css/main.e5111a34.chunk.css.map": "/films-games-search-app/static/css/main.e5111a34.chunk.css.map",
+    "static/css/main.588832e5.chunk.css.map": "/films-games-search-app/static/css/main.588832e5.chunk.css.map",
     "static/js/2.2f2ed3bf.chunk.js.LICENSE.txt": "/films-games-search-app/static/js/2.2f2ed3bf.chunk.js.LICENSE.txt",
     "static/media/default poster.jpg": "/films-games-search-app/static/media/default poster.94af2db5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5a2f2898.js",
     "static/js/2.2f2ed3bf.chunk.js",
-    "static/css/main.e5111a34.chunk.css",
-    "static/js/main.a453dddf.chunk.js"
+    "static/css/main.588832e5.chunk.css",
+    "static/js/main.f2a386f5.chunk.js"
   ]
 }
