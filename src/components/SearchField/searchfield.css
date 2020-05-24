@@ -21,7 +21,10 @@
 	color: black;
 }
 
-
+.search button::-moz-focus-inner {
+	border: 0;
+ }
+ 
 .search button {
 	width: 20%;
 	font-size: 1rem;
