@@ -31,7 +31,7 @@ function Movie({ movie, clickOnMovie}) {
           			                       alt={`The movie titled: ${movie.Title}`}
           			                       src={poster}/> 
                         </div>
-      		              <p>({movie.Year})</p>
+      		              <h4>{movie.Year}</h4>
                     </div>
       : <Spinner/>}
     </div>

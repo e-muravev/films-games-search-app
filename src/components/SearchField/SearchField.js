@@ -40,7 +40,7 @@ function SearchField({ search, onCloseInfo }) {
           			onChange={handleSearchInputChanges}
           			type="text"
           			placeholder={errorPlaceholder}
-          			style={errorInput ? {border: '2px solid red'} : null}
+          			style={errorInput ? {border: '1px solid red'} : null}
         		/>
         		<button  type="submit" value="search" >SEARCH</button>
       		</form>
